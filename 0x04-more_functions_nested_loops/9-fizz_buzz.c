@@ -38,7 +38,7 @@ else
 printf("%i ", i);
 }
 
-i++
+i++;
 
 
 }
