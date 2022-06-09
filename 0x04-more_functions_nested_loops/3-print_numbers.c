@@ -1,17 +1,18 @@
 #include "main.h"
-
 /**
- * print_numbers - function that prints the numbers, from 0 to 9.
- * Return: no return
+ * print_numbers  - print numbers
+ * Return: Always 0.
  */
-
-void print_most_numbers(void)
+void print_numbers(void)
 {
-char i;
+int i;
 
-for (i = '0'; i <= '9'; i++)
+i = 0;
+while (i < 10)
 {
-_putchar(i);
+_putchar (i + '0');
+i++;
 }
-_putchar('\n');
+
+_putchar ('\n');
 }
