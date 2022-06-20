@@ -20,4 +20,4 @@ for (i = 0; i < n; i++)
 } /*END FOR*/
 
 return (s);
-}	
+}
