@@ -10,7 +10,7 @@
 int evaluate_num(int num, int iterator)
 {
 
- (iterator == num - 1)
+if (iterator == num - 1)
 {
 return (1);
 }
