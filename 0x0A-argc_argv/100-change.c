@@ -3,15 +3,15 @@
 
 /**
  * main - function
- * @argc: length of argv
- * @argv: number of argument
- * Return: Always 0
+ *@argc: length of argv
+ *@argv: number of argument
+ *Return: Always 0
  */
 
 int main(int argc, char *argv[])
 {
 /*Declaring variables*/
-int position, total, chamge, aux;
+int position, total, change, aux;
 int coins[] = {25, 10, 5, 2, 1}; /*Array int*/
 
 position = total = change = aux = 0;
@@ -22,7 +22,7 @@ printf("Error\n");
 return (1);
 }
 
-total = atoi(argv[1]); /*Convert str to int*/
+total = atoi(argv[1]); /*Covert str to int*/
 
 if (total <= 0)
 {
@@ -32,7 +32,7 @@ return (0);
 
 /*Declaring While*/
 
-while (coin[position] != '\0')
+while (coins[position] != '\0')
 
 {
 if (total >= coins[position])
