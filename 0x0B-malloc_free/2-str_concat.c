@@ -1,4 +1,4 @@
-#include "main.
+#include "main.h"
 /**
  *_strlen - count arrray
  *@s: array of elements
