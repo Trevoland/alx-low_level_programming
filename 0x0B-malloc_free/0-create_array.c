@@ -1,4 +1,4 @@
-#include "main.h"
+#include ain.h"
 /**
  *create_array - array for prints a string
  *@size: number elements array
