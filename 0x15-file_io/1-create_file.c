@@ -19,6 +19,7 @@ return (-1);
 if (text_content != NULL)
 {
 for (i = 0; text_content[i]; i++)
+<<<<<<< HEAD
 
 	fwrite = write(file, text_content, i);
         if (fwrite == -1)
@@ -26,4 +27,13 @@ for (i = 0; text_content[i]; i++)
     }
     close(file);
     return (1);
+=======
+;
+fwrite = write(file, text_content, i);
+if (fwrite == -1)
+return (-1);
+}
+close(file);
+return (1);
+>>>>>>> 795f0717943b70beb73a17d1b756b66fabf9471c
 }
